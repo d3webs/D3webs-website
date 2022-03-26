@@ -266,7 +266,7 @@ header
 }
 
 .pre-header ul.social-media li {
-  margin-left: 5px;
+  margin-left: 0px;
 }
 
 .pre-header ul.social-media li a {
@@ -901,7 +901,7 @@ Banner Style
 
 .main-banner:before {
   content: '';
-  background-image: url(../images/slider-right-dec.jpg);
+  /* background-image: url(../images/slider-right-dec.jpg); */
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
@@ -2108,3 +2108,9 @@ responsive
   width: 90px;
   margin:10px
 }
+
+/* First right sie image */
+/* .firstImage{
+width: 2000px;
+ height: 00px;
+} */
