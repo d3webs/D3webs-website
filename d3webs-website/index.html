@@ -631,7 +631,8 @@ https://templatemo.com/tm-568-digimedia
           </div>
         </div>
         <div class="col-lg-12 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.25s">
-          <form id="contact" action="" method="post">
+          <form id="contact" action="contactinfo.php" method="post" enctype=”multipart/form-data"
+name=”EmailForm”>
             <div class="row">
               <div class="col-lg-12">
                 <div class="contact-dec">
@@ -693,7 +694,7 @@ https://templatemo.com/tm-568-digimedia
                     </div>
                     <div class="col-lg-12">
                       <fieldset>
-                        <button type="submit" id="form-submit" class="main-button ">Send Message Now</button>
+                        <button type="submit" id="form-submit" onclick="myfunction()" class="main-button">Send Message Now</button>
                       </fieldset>
                     </div>
                   </div>
@@ -718,6 +719,7 @@ https://templatemo.com/tm-568-digimedia
 
 
   <!-- Scripts -->
+
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/owl-carousel.js"></script>
